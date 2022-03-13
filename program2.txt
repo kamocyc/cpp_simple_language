@@ -1,0 +1,9 @@
+a = 1
+s = 0
+loop {
+  s = s + a
+  a = a + 1
+  if(a > 10) { break }
+}
+print s
+s

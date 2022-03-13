@@ -1,0 +1,12 @@
+a = 1
+b = 10
+loop {
+  print a
+  a = a + 1
+  append b (a + 10)
+  if(a > 3){ break }
+}
+print b
+append b b
+print b
+100

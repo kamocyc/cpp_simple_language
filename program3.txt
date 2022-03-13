@@ -1,0 +1,21 @@
+c = 3
+f = 0
+loop {
+  i = 2
+  m = 0
+  loop {
+    if(c - c / i * i == 0) {
+      m = 1
+      break
+    }
+    i = i + 1
+    if(i > c - 1) { break }
+  }
+  if(m == 0) {
+    print c
+    f = f + 1
+  }
+  c = c + 1
+  if(c > 100) { break }
+}
+f
